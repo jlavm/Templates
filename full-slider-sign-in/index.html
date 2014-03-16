@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/full-slider.css" rel="stylesheet">
+
+    <style type="text/css">
+
+    .carousel-control.right{
+        opacity: 0;
+    }
+    .carousel-control.left{
+        opacity: 1;
+    }
+
+        .form-signin {
+      max-width: 400px;
+      padding: 15px;
+      margin: 0 auto;
+      margin-top: 100px;
+      background: white;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+    }
+    .form-signin .form-signin-heading,
+    .form-signin .checkbox {
+      margin-bottom: 40px;
+    }
+    .form-signin .checkbox {
+      font-weight: normal;
+    }
+    .form-signin .form-control {
+      position: relative;
+      height: auto;
+      -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+      padding: 10px;
+      font-size: 16px;
+    }
+    .form-signin .form-control:focus {
+      z-index: 2;
+    }
+    .form-signin input[type="email"] {
+      margin-bottom: -1px;
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+    .form-signin input[type="password"] {
+      margin-bottom: 10px;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .carousel-control{
+        width: 100%;
+        text-shadow: none;
+    }
+
+    .btn-default {
+    color: white;
+    background-color: #006B54;
+    border-color: #006B54;
+    width:200px;
+    margin-top: 30px;
+    height:  45px;
+    }
+
+    .btn-default:hover{
+      background-color: #006B54;
+      border-color: #006B54;
+    }
+
+    a {
+    color: #006B54;
+    font-size: 14px;
+    }
+ a:hover{
+      text-decoration: none;
+    }
+.radio-inline, .checkbox-inline{
+    font-size: 14px;
+     color: #006B54;
+}
+
+.input-group {
+    margin-bottom: 20px;
+ }
+
+ .form-control{
+    margin-top: 2px;
+    height: 46px;
+}
+.form-signin-heading{
+
+color: #006B54;
+}
+
+    .glyphicon-user:before {
+    color: #006B54;
+    }
+
+    .glyphicon-envelope:before {
+    color: #006B54;
+    }
+
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="myCarousel" class="carousel slide  auto">
+
+ 
+        <!-- Indicators -->
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+ 
+        
+    
+            <div class="item active">
+                <div class="fill" style="background-image:url(images/wallpaper-4.jpg);"></div>
+                <div class="carousel-caption">
+        
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url(images/wallpaper-1.jpg);"></div>
+                <div class="carousel-caption">
+                    
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url(images/wallpaper-2.jpg);"></div>
+                <div class="carousel-caption">
+                    
+                </div>
+            </div>
+
+             <div class="item">
+                <div class="fill" style="background-image:url(images/wallpaper-3.jpg);"></div>
+                <div class="carousel-caption">
+                    
+                </div>
+            </div>
+        </div>
+     
+       
+
+        <!-- Controls -->
+        <div class="left carousel-control" href="" data-slide="prev">
+        <form class="form-signin" role="form">
+        <h2 class="form-signin-heading">Sign in</h2>
+          <div class="input-group input-group-lg">
+              <span class="input-group-addon glyphicon glyphicon-user"></span>
+              <input type="text" class="form-control" placeholder="User">
+              </div>  
+
+              <div class="input-group input-group-lg">
+              <span class="input-group-addon glyphicon glyphicon-envelope"></span>
+              <input type="email" class="form-control" placeholder="Email">
+              </div>       
+
+
+               <button type="button" class="btn btn-default btn-login">Login</button>
+            
+              <div class="row" style="margin-top:50px;">
+                  <div class="col-md-6">
+               
+               <label class="checkbox-inline">
+                <input type="checkbox" id="inlineCheckbox1"> Remember me?
+              </label>
+            
+
+              </div>
+              <div class="col-md-6">
+
+              
+                <a> Forgot password?</a>
+    
+            
+
+              </div>
+              </div>
+         </form>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 2000,
+        pause: "false"
+    })
+    </script>
+</body>
+
+</html>
